@@ -1,0 +1,350 @@
+body {
+    margin: 0;
+}
+
+.header-section {
+    width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+}
+
+.wrap-menu__menu {
+    padding-top: 20px;
+    background-color: #fff;
+}
+
+.menu__item {
+    list-style-type: none;
+    font-size: 19px;
+    color: black;
+    margin-bottom: 17px;
+}
+
+.menu__item a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu__toggle {
+    opacity: 0;
+}
+
+#menu__toggle:checked + .menu__btn > span {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+#menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu__box {
+    left: 41%;
+}
+
+.menu__btn {
+    position: fixed;
+    top: 20px;
+    left: 335px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    -webkit-transition-duration: .25s;
+    -o-transition-duration: .25s;
+    transition-duration: .25s;
+}
+
+.menu__btn > span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn > span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 102%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #ECEFF1;
+    -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    -webkit-transition-duration: .25s;
+    -o-transition-duration: .25s;
+    transition-duration: .25s;
+    z-index: 2;
+}
+
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    -webkit-transition-duration: .25s;
+    -o-transition-duration: .25s;
+    transition-duration: .25s;
+}
+
+.menu__item:hover {
+    background-color: #CFD8DC;
+}
+
+.itc-slider__item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.itc-slider__item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.itc-slider__wrapper {
+    overflow: hidden;
+}
+
+.person {
+    width: 359px;
+}
+
+.itc-slider__indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 15%;
+    padding-left: 0;
+    list-style: none;
+}
+
+.text-on-slider {
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+h1, h3, h5 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.card-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.card-name {
+    font-size: 25px;
+}
+
+.image-card {
+    width: 55px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #918d8d;
+}
+
+.box-right {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.first-section {
+    padding-bottom: 30px;
+}
+
+.second-section {
+    background-color: #116530;
+    padding-bottom: 50px;
+}
+
+.man-1 {
+    width: 100%;
+    -webkit-transform: translateY(-42px);
+    -ms-transform: translateY(-42px);
+    transform: translateY(-42px);
+}
+
+.veg-icon {
+    width: 50px;
+    font-size: 53px;
+    color: #fff;
+}
+
+.product-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.naming {
+    font-size: 22px;
+    color: #fff;
+}
+
+.par {
+    font-size: 18px;
+    margin: 2px 0;
+    color: #ccc;
+}
+
+.images-card {
+    margin-right: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #ccc;
+}
+
+h2 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.lorem {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.hero-2 {
+    width: 100%;
+}
+
+.fa-circle-play {
+    font-size: 70px;
+    color: #0000008a;
+    position: absolute;
+    right: 150px;
+    bottom: 280px;
+}
+
+.video {
+    position: relative;
+}
+
+li {
+    list-style-type: none;
+}
+
+.check-text {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #7a7a7a;
+}
+
+.check-wrap {
+    padding: 8px;
+}
+
+.fa-check {
+    margin-right: 12px;
+    font-size: 17px;
+    color: #116530;
+}
+
+h5 {
+    font-size: 30px;
+    color: #116530;
+}
+
+.plants-about {
+    font-size: 19px;
+    color: #7a7a7a;
+}
+
+.get-in-touch {
+    font-size: 18px;
+    color: #fff;
+    background-color: #116530;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
