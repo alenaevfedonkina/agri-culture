@@ -151,7 +151,7 @@ body {
     align-items: center;
 }
 
-.itc-slider__item::before {
+.blackout::before {
     content: "";
     position: absolute;
     top: 0;
@@ -196,6 +196,10 @@ body {
 
 h1, h3, h5 {
     text-align: center;
+}
+
+h3 {
+    color: #116530;
 }
 
 h1 {
@@ -290,6 +294,10 @@ h2 {
     margin-bottom: 30px;
 }
 
+.third-section {
+    padding-bottom: 40px;
+}
+
 .hero-2 {
     width: 100%;
 }
@@ -299,7 +307,7 @@ h2 {
     color: #0000008a;
     position: absolute;
     right: 150px;
-    bottom: 280px;
+    bottom: 162px;
 }
 
 .video {
@@ -347,4 +355,233 @@ h5 {
 
 a {
     text-decoration: none;
+}
+
+.four-section {
+    background-color: #09162a;
+}
+
+.first-title-b4 {
+    color: #ccc;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.second-title-b4 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.title-blok4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.bottom {
+    bottom: -45px;
+}
+
+.we-do, .what-text {
+    position: absolute;
+    font-size: 30px;
+}
+
+.project-content::before {
+    content: "";
+    position: absolute;
+    top: 248px;
+    left: 0;
+    display: block;
+    width: 190px;
+    height: 73px;
+    background-color: rgba(0, 0, 0, 0.537);
+}
+
+.we-do {
+    color: #25ff04;
+    bottom: 73px;
+    left: 5px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.what-text {
+    color: #fff;
+    bottom: 41px;
+    left: 5px;
+    font-size: 30px;
+}
+
+.fist-section {
+    padding-top: 90px;
+}
+
+.testimonial {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.title-test {
+    font-size: 25px;
+    color: #116530;
+}
+
+.title-test2 {
+    font-size: 30px;
+}
+
+.client-profil {
+    margin-bottom: 50px;
+}
+
+.client-img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.client-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.client-name {
+    font-size: 23px;
+    color: #116530;
+}
+
+.six-section {
+    background-color: #f8f9fa;
+    padding-top: 40px;
+}
+
+.blog-tit-wr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.blog-title {
+    font-size: 30px;
+    color: #116530;
+    margin-bottom: 15px;
+}
+
+.text-blog {
+    font-size: 35px;
+}
+
+.post {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    height: 550px;
+    margin-bottom: 20px;
+}
+
+.img-b {
+    width: 357px;
+}
+
+.blog-name {
+    font-size: 27px;
+}
+
+.posted {
+    color: #aeacac;
+}
+
+.green {
+    color: #116530;
+}
+
+.seven-section {
+    background-color: #116530;
+    padding: 30px 8px;
+}
+
+.sub-block span {
+    font-size: 25px;
+    color: #fff;
+}
+
+.sub-block p {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.e-mail {
+    font-size: 17px;
+    padding: 10px;
+}
+
+.sub-btn {
+    font-size: 14px;
+    padding: 10px 7px;
+    border: none;
+    background-color: #ecb365;
+    color: #fff;
+}
+
+.sub-e {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer {
+    padding-top: 40px;
+    background-color: #000000;
+}
+
+.foot-h p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.name-info {
+    font-size: 18px;
+    color: #fff;
+    border-bottom: 1px solid #ecb365;
+}
+
+.info {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.foot-info ul {
+    padding: 0px 8px;
+}
+
+.block-9 {
+    margin-top: 40px;
+    color: #ccc;
 }

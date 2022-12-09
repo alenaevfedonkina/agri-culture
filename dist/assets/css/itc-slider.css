@@ -92,7 +92,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1;
+  z-index: 15;
   display: flex;
   justify-content: center;
   margin: 0 15%;
@@ -103,7 +103,7 @@
 .itc-slider__indicator {
   flex: 0 1 auto;
   box-sizing: content-box;
-  width: 20px;
+  width: 30px;
   height: 5px;
   margin-right: 3px;
   margin-left: 3px;
@@ -113,9 +113,8 @@
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
   cursor: pointer;
-  
 }
 
 .itc-slider__indicator_active {
-  background-color: rgb(13, 86, 25);
+  background-color: rgb(255 255 255 / 90%);
 }

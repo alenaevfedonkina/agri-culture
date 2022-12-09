@@ -1,6 +1,8 @@
 $green: #116530
+$dark-blue: #09162a
+$orange: #ecb365
 body
-    margin: 0 
+    margin: 0
 .header-section
     width: 100%
 .wrapper
@@ -22,24 +24,24 @@ body
     a
         text-decoration: none
         color: black
-#menu__toggle 
+#menu__toggle
     opacity: 0
 
-#menu__toggle:checked + .menu__btn > span 
+#menu__toggle:checked + .menu__btn > span
     transform: rotate(45deg)
 
-#menu__toggle:checked + .menu__btn > span::before 
+#menu__toggle:checked + .menu__btn > span::before
     top: 0
     transform: rotate(0deg)
 
-#menu__toggle:checked + .menu__btn > span::after 
+#menu__toggle:checked + .menu__btn > span::after
     top: 0
     transform: rotate(90deg)
 
-#menu__toggle:checked ~ .menu__box 
+#menu__toggle:checked ~ .menu__box
     left: 41%
 
-.menu__btn 
+.menu__btn
     position: fixed
     top: 20px
     left: 335px
@@ -50,7 +52,7 @@ body
 
 .menu__btn > span,
 .menu__btn > span::before,
-.menu__btn > span::after 
+.menu__btn > span::after
     display: block
     position: absolute
     width: 100%
@@ -58,15 +60,15 @@ body
     background-color: #616161
     transition-duration: .25s
 
-.menu__btn > span::before 
+.menu__btn > span::before
     content: ''
     top: -8px
 
-.menu__btn > span::after 
+.menu__btn > span::after
     content: ''
     top: 8px
 
-.menu__box 
+.menu__box
     display: block
     position: fixed
     top: 0
@@ -81,7 +83,7 @@ body
     transition-duration: .25s
     z-index: 2
 
-.menu__item 
+.menu__item
     display: block
     padding: 12px 24px
     color: #333
@@ -91,14 +93,16 @@ body
     text-decoration: none
     transition-duration: .25s
 
-.menu__item:hover 
+.menu__item:hover
     background-color: #CFD8DC
-.itc-slider__item 
+.itc-slider__item
     flex: 0 0 100%
     max-width: 100%
     display: flex
     justify-content: center
     align-items: center
+
+.blackout
     &::before
         content: ""
         position: absolute
@@ -108,11 +112,11 @@ body
         width: 100%
         height: 100%
         background-color: rgba(0, 0, 0, 0.3)
-.itc-slider__wrapper 
+.itc-slider__wrapper
     overflow: hidden
 .person
     width: 359px
-.itc-slider__indicators   
+.itc-slider__indicators
     position: absolute
     right: 0
     bottom: 0
@@ -131,6 +135,8 @@ body
     text-align: center
 h1, h3, h5
     text-align: center
+h3
+    color: $green
 h1
     font-size: 28px
 .card-box
@@ -187,6 +193,8 @@ h2
     color: #ccc
     margin-bottom: 30px
     //3 section
+.third-section
+    padding-bottom: 40px
 .hero-2
     width: 100%
 .fa-circle-play
@@ -194,7 +202,7 @@ h2
     color: #0000008a
     position: absolute
     right: 150px
-    bottom: 280px
+    bottom: 162px
 .video
     position: relative
 li
@@ -224,3 +232,147 @@ h5
     border-radius: 5px
 a
     text-decoration: none
+
+//4 section
+.four-section
+    background-color: $dark-blue
+.first-title-b4
+    color: #ccc
+    font-size: 25px
+    margin-bottom: 10px
+.second-title-b4
+    color: #fff
+    font-size: 30px
+.title-blok4
+    display: flex
+    flex-direction: column
+    padding-top: 20px
+.bottom
+    bottom: -45px
+.we-do, .what-text
+    position: absolute
+    font-size: 30px
+.project-content
+    &::before
+        content: ""
+        position: absolute
+        top: 248px
+        left: 0
+        display: block
+        width: 190px
+        height: 73px
+        background-color: rgba(0, 0, 0, 0.537)
+
+.we-do
+    color: #25ff04
+    bottom: 73px
+    left: 5px
+    font-size: 24px
+    text-transform: uppercase
+.what-text
+    color: #fff
+    bottom: 41px
+    left: 5px
+    font-size: 30px
+
+///5 section
+.fist-section
+    padding-top: 90px
+.testimonial
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-bottom: 50px
+.title-test
+    font-size: 25px
+    color: $green
+.title-test2
+    font-size: 30px
+.client-profil
+    margin-bottom: 50px
+
+.client-img
+    width: 100px
+    border-radius: 100%
+.client-text
+    font-size: 20px
+    font-weight: 600
+.client-name
+    font-size: 23px
+    color: $green
+
+///6 section
+
+.six-section
+    background-color: #f8f9fa
+    padding-top: 40px
+.blog-tit-wr
+    display: flex
+    flex-direction: column
+    margin-bottom: 40px
+.blog-title
+    font-size: 30px
+    color: $green
+    margin-bottom: 15px
+.text-blog
+    font-size: 35px
+.post
+    display: flex
+    flex-direction: column
+    justify-content: space-evenly
+    height: 550px
+    margin-bottom: 20px
+.img-b
+    width: 357px
+.blog-name
+    font-size: 27px
+.posted
+    color: #aeacac
+.green
+    color: $green
+
+///7 section
+
+.seven-section
+    background-color: $green
+    padding: 30px 8px
+.sub-block
+    span
+        font-size: 25px
+        color: #fff
+    p
+        font-size: 18px
+        color: #ccc
+.e-mail
+    font-size: 17px
+    padding: 10px
+.sub-btn
+    font-size: 14px
+    padding: 10px 7px
+    border: none
+    background-color: $orange
+    color: #fff
+.sub-e
+    display: flex
+/// footer
+.footer
+    padding-top: 40px
+    background-color: #000000
+.foot-h
+    p
+        font-size: 16px
+        color: #fff
+.name-info
+    font-size: 18px
+    color: #fff
+    border-bottom: 1px solid $orange
+.info
+    color: #fff
+    margin-bottom: 10px
+    font-size: 16px
+.foot-info
+    ul
+        padding: 0px 8px
+.block-9
+    margin-top: 40px
+    color: #ccc
