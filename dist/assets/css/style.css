@@ -223,6 +223,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+.card-section {
+    margin-bottom: 40px;
+}
+
 .card-name {
     font-size: 25px;
 }
