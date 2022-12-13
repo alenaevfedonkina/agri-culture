@@ -742,8 +742,29 @@ a {
 
 .inp {
     border-radius: 8px;
-    border: 1px solid #868484;
+    border: 1px solid #abababa9;
     font-size: 20px;
+}
+
+.categories {
+    font-size: 25px;
+}
+
+.cat-l {
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.num-gray {
+    color: #ccc;
 }
 
 .post-text {
@@ -785,17 +806,20 @@ a {
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 20px;
-}
-
-.comment2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+}
+
+.wrapp-p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.answer-comment {
+    margin-bottom: 20px;
 }
 
 .com1 {
@@ -816,4 +840,67 @@ a {
 
 .comment-list {
     padding: 8px;
+}
+
+.block-gray {
+    background-color: #f0f0f0c7;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.cont-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.sidebar {
+    padding: 20px;
+}
+
+.title-block-comm {
+    font-size: 30px;
+}
+
+.green-t {
+    color: #116530;
+}
+
+.profil-autor, .parag {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.profil-autor span, .parag span {
+    font-size: 20px;
+}
+
+.profil-autor p, .parag p {
+    font-size: 18px;
+    color: #868484;
+    margin: 12px 0;
+}
+
+.autor {
+    width: 160px;
+    border-radius: 50%;
+    margin-bottom: 15px;
 }
