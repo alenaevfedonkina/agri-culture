@@ -603,6 +603,10 @@ a {
     color: #ccc;
 }
 
+.autor-section2, .section-catigories2, .blok-5-1 {
+    display: none;
+}
+
 .title-about {
     margin-bottom: 40px;
 }
@@ -1052,7 +1056,7 @@ a {
     }
 
     .e-mail {
-        width: 46px;
+        width: 416px;
         height: 60px;
     }
 
@@ -1065,8 +1069,9 @@ a {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -ms-flex-pack: distribute;
-        justify-content: space-around;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
     }
 
     .foot-h p {
@@ -1075,5 +1080,72 @@ a {
 
     .hero-about {
         width: 100%;
+    }
+
+    .wrap-farm {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .farm-img {
+        width: 269px;
+    }
+
+    .section-catigories, .autor-section {
+        display: none;
+    }
+
+    .wr-bp {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .autor-section2, .section-catigories2 {
+        display: block;
+        width: 210px;
+    }
+
+    .profil-autor, .parag {
+        width: 320px;
+    }
+
+    .blog-post {
+        width: 485px;
+    }
+
+    .block-gray {
+        width: 400px;
+    }
+
+    .contact__first-s {
+        display: none;
+    }
+
+    .blok-5-1 {
+        display: block;
+    }
+
+    .wr-cont-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .in-f {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .in-name {
+        margin-right: 20px;
     }
 }
