@@ -626,37 +626,37 @@ a {
     left: 0;
     display: block;
     width: 100%;
-    height: 362px;
+    height: 217px;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
 .text-about {
     position: absolute;
-    top: 164px;
+    top: 85px;
     right: 142px;
 }
 
 .text-about1 {
     position: absolute;
-    top: 164px;
+    top: 85px;
     right: 109px;
 }
 
 .text-about2 {
     position: absolute;
-    top: 164px;
+    top: 85px;
     right: 119px;
 }
 
 .text-about3 {
     position: absolute;
-    top: 164px;
+    top: 85px;
     right: 94px;
 }
 
 .text-about4 {
     position: absolute;
-    top: 164px;
+    top: 85px;
     right: 140px;
 }
 
@@ -1147,5 +1147,24 @@ a {
 
     .in-name {
         margin-right: 20px;
+    }
+
+    .img-block:before {
+        height: 687px;
+    }
+
+    .text-about {
+        top: 286px;
+        right: 535px;
+    }
+
+    .text-about1, .text-about3 {
+        top: 319px;
+        right: 495px;
+    }
+
+    .text-about2 {
+        top: 319px;
+        right: 500px;
     }
 }
