@@ -316,6 +316,17 @@ h2 {
 
 .hero-2 {
     width: 100%;
+    -webkit-transition: opacity 124ms linear, -webkit-transform 124ms linear;
+    transition: opacity 124ms linear, -webkit-transform 124ms linear;
+    -o-transition: opacity 124ms linear, transform 124ms linear;
+    transition: opacity 124ms linear, transform 124ms linear;
+    transition: opacity 124ms linear, transform 124ms linear, -webkit-transform 124ms linear;
+}
+
+.hero-2:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .fa-circle-play {
@@ -324,6 +335,7 @@ h2 {
     position: absolute;
     right: 150px;
     bottom: 162px;
+    z-index: 5;
 }
 
 .video {
