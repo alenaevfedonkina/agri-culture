@@ -84,7 +84,7 @@ button {
     width: 26px;
     height: 26px;
     cursor: pointer;
-    z-index: 3;
+    z-index: 21;
 }
 
 .menu__btn > span,
@@ -126,7 +126,7 @@ button {
     -webkit-transition-duration: .25s;
     -o-transition-duration: .25s;
     transition-duration: .25s;
-    z-index: 2;
+    z-index: 20;
 }
 
 .menu__item {
