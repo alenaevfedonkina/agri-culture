@@ -178,7 +178,7 @@ button {
 }
 
 .person {
-    width: 359px;
+    width: 100%;
 }
 
 .itc-slider__indicators {
@@ -629,16 +629,17 @@ a {
 
 .img-block {
     position: relative;
+    height: 216px;
 }
 
 .img-block:before {
     content: "";
     position: absolute;
-    top: -1px;
+    top: -2px;
     left: 0;
     display: block;
     width: 100%;
-    height: 217px;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
