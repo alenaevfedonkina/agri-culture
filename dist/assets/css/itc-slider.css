@@ -35,7 +35,7 @@
 /* кнопки влево и вправо */
 .itc-slider__btn {
   position: absolute;
-  top: 50%;
+  top: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +43,7 @@
   height: 50px;
   color: #fff;
   text-align: center;
-  background: rgb(0 0 0 / 20%);
+  background: #09162a96;
   border: none;
   transform: translateY(-50%);
   cursor: pointer;
